@@ -1,6 +1,8 @@
 {
   "dependencies": {
-    "git-cli": "^0.11.0"
+    "body": "^5.1.0",
+    "git-cli": "^0.11.0",
+    "parser": "^0.1.4"
   },
   "scripts": {
     "start": "node server.js"
@@ -8,7 +10,6 @@
   "name": "express1",
   "version": "1.0.0",
   "main": "server.js",
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/VnyC/express1.git"
