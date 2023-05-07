@@ -1,5 +1,24 @@
 {
   "dependencies": {
     "git-cli": "^0.11.0"
-  }
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "express1",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VnyC/express1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VnyC/express1/issues"
+  },
+  "homepage": "https://github.com/VnyC/express1#readme",
+  "description": ""
 }
