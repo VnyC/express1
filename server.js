@@ -1,7 +1,7 @@
 const { json, urlencoded } = require('express');
 const express = require('express');
 const cors = require('cors');
-const knex = require('knex');
+// const knex = require('knex');
 const bodyParser = require('body-parser')
 
 const app = express();
@@ -13,15 +13,15 @@ app.use(json());
 
 app.use(cors());
 
-const pgdb = knex({
-    client: 'pg',
-    connection: {
-      connectionString: "postgres://profile:Vinayak17598@vinayakchawdimaniprofilepage.cpiqwwkm5tdd.ap-south-1.rds.amazonaws.com/postgres",
-      ssl: {
-        rejectUnauthorized: false
-      }
-    }
-  });
+// const pgdb = knex({
+//     client: 'pg',
+//     connection: {
+//       connectionString: "postgres://profile:Vinayak17598@vinayakchawdimaniprofilepage.cpiqwwkm5tdd.ap-south-1.rds.amazonaws.com/postgres",
+//       ssl: {
+//         rejectUnauthorized: false
+//       }
+//     }
+//   });
 
 
 
